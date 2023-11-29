@@ -6,7 +6,7 @@ import { TextInput } from 'react-native';
 import { TouchableOpacity } from 'react-native';
 import React, { useState, useEffect } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { auth } from '../firebase';
+import { auth } from '../firebase/firebase';
 
 export default function EkranScreen() {
   const [task, setTask] = useState('');
